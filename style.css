@@ -1,0 +1,75 @@
+html {
+  height: 95%;
+}
+
+body {
+  background-image: url(https://external-preview.redd.it/Y_qBynvRtitBCdc_yZkNqpmdMYf-O-eFiyWdOViV-2c.jpg?auto=webp&s=094e88a0cccc455c2de1bf1a14e43126a06ed02d);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.quote {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.author {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.feed {
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.button {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  
+}
+#sliderMenu{
+background-color: cornflowerblue;
+background-position: bottom;
+position: fixed;
+bottom: 90px;
+border-radius: 6px;
+padding: 2px;
+
+}
+
+#sliderButton{
+background-color: whitesmoke;
+height: 25px;
+width: min-content;
+border-radius: 6px;
+position: fixed;
+bottom: 65px;
+}
+
+.form{
+    width: fit-content;
+    margin-top: 7px;
+}
+
